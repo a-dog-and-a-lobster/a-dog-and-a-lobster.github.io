@@ -5,8 +5,14 @@
 body {
   font-family: Arial;
   padding: 20px;
+  color: ;
   /*background: #f1f1f1;*/
-  background: linear-gradient(to right, #E8DCB9 0%, #E8DCB9 50%, #F2CEE6 50%, #F2CEE6 100%);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
 }
 
 /* Header/Blog Title */
@@ -23,7 +29,6 @@ body {
   float: left;
   width: 50%;
   padding-right: 15px;
-  /*background-color: E8DCB9;*/
 }
 
 /* Right column */
@@ -31,7 +36,11 @@ body {
   float: left;
   width: 50%;
   padding-left: 15px;
-  /*background-color: F2CEE6;*/
+}
+
+.article {
+  width: 90%;
+  padding: 10px;
 }
 
 /* Fake image */
