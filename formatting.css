@@ -5,7 +5,7 @@
 body {
   font-family: Arial;
   padding: 20px;
-  color: ;
+  /* color: ; */
   /*background: #f1f1f1;*/
 }
 
@@ -20,7 +20,10 @@ a {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: white;
+  background-image: url('Resources/Images/homepage_banner.png');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100%;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -38,9 +41,8 @@ a {
   padding-left: 15px;
 }
 
-.article {
-  width: 90%;
-  padding: 10px;
+.fullarticle {
+  width: 65%;
 }
 
 /* Fake image */
@@ -55,6 +57,7 @@ a {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+  width: 100%;
 }
 
 /* Clear floats after the columns */
